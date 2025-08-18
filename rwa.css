@@ -1,0 +1,125 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  background-color: #fff;
+}
+
+.tag-line {
+  font-family: Garamond, serif;
+  font-weight:bold;
+  font-style: italic;
+  font-size:18px;
+  line-height:1;
+  text-align:center;
+  color:#666;
+}
+.main-title {
+  font-family: Garamond, serif;
+  margin-bottom:0;
+  font-size:72px;
+  line-height:1;
+  letter-spacing: -1px;
+  margin-bottom:none;
+}
+
+.authors {
+  margin-top:0;
+}
+
+.title {
+  font-family: Garamond, serif;
+}
+div.section {
+}
+
+dl.quotes {
+  width: 900px;
+  margin:auto;
+}
+dl.quotes dt {
+  font-style: italic;
+}
+dl.quotes dd {
+  text-align:right;
+  margin-bottom: .8em;
+  color: #666;
+}
+
+#menu {
+ color: #333;
+ background-color:#eee;
+ width:100%;
+}
+
+#menu ul {
+ margin-left: 0;
+ padding-left: 0;
+ display: inline;
+} 
+
+#menu ul li {
+ margin-left: 0;
+ padding: 3px 15px;
+ border-left: 1px solid #000;
+ list-style: none;
+ display: inline;
+}
+   
+#menu ul li.first {
+ margin-left: 0;
+ border-left: none;
+ list-style: none;
+ display: inline;
+ }
+
+#menu ul li a {
+  text-decoration:none;
+  font-weight:bold;
+}
+img.inline {
+  margin: .2em;
+}
+
+.bookquote {
+  font-family: Garamond, serif;
+  font-style:italic;
+  color:#000;  
+}
+
+a.noshow {
+  text-decoration:none;
+  color:#000;
+}
+
+.center {
+  text-align:center;
+}
+
+dl.chapters {
+  width: 95%;
+  margin:auto;
+}
+dl.chapters dt {
+  font-weight:bold;
+}
+dl.chapters dd {
+  font-style: italic;
+  margin-bottom: .5em;
+}
+
+p.timeline {
+  float:right;
+  margin-left: .5em;
+}
+
+blockquote {
+  margin: auto;
+  padding: .5em;
+  width: 65%;
+  border: 1px black solid;
+  background-color:#eee;
+  font-family: Garamond, serif;
+  font-weight:bold;
+  text-align:center;
+}

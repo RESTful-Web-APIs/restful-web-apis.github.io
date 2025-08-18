@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RESTful Web APIs</title>
+    <link rel="stylesheet" href="rwa.css" type="text/css" />
+  </head>
+  <body>
+  
+    <!-- COVER -->
+    <p class="rwa-cover">
+      <a href="http://shop.oreilly.com/product/0636920028468.do" title="RESTful Web APIs" target="buy">
+        <img src="images/rwa-cover.jpg" width="250" align="right" class="inline"/>
+      </a>
+    </p>
+
+    <!-- HEADING -->
+    <p class="tag-line">Services for a Changing World</p>
+    <h1 class="main-title"><a href="http://restfulwebapis.com" class="noshow">RESTful Web APIs</a></h1>
+    <h2 class="authors">By Leonard Richardson and Mike Amundsen with Foreword by Sam Ruby</h2>
+    
+    <!-- MENU -->
+    <div id="menu">
+      <ul>
+        <li class="first"><a href="index.html">The Book</a></li>
+        <li><a href="index.html#buyit">Buy It</a></li>
+        <li><a href="index.html#praise">Early Praise</a></li>
+        <li><a href="chapters.html">Chapters</a></li>
+        <li><a href="ytiwpi.html">You Type It, We Post It</a></li>
+        <li><a href="code.html">The Code</a></li>
+        <li><a href="rws.html">RESTful Web Services</a></li>
+      </ul>
+    </div>
+    
+    <!-- CHAPTER LIST -->
+    <div id="chapters" class="section">
+      <h2>What's in this book?</h2>
+      <p>
+      Below is a chapter guide of what you'll find in 
+      <a href="http://shop.oreilly.com/product/0636920028468.do" title="RESTful Web APIs" target="buy"><i>RESTful Web APIs</i></a>
+      </p>      
+    </div>
+    
+    <div class="section">
+      <p>
+      The first four chapters introduce the concepts behind REST, as it applies to web APIs.
+      </p>
+      <dl class="chapters">
+      <dt>Chapter 1, Surfing the Web</dt>
+      <dd>This chapter explains basic terminology using a RESTful system you're already familiar with: a website.</dd>
+
+      <dt>Chapter 2, A Simple API</dt>
+      <dd>This chapter translates the lessons of the Web to a programmable API with identical functionality to the website discussed in Chapter 1.</dd>
+
+      <dt>Chapter 3, Resources and Representations</dt>
+      <dd>Resources are the fundamental concept underlying HTTP, and representations are the fundamental concept underlying REST. This chapter explains how they're related.</dd>
+
+      <dt>Chapter 4, Hypermedia</dt>
+      <dd>Hypermedia is the missing ingredient that ties representations together into a coherent API. This chapter shows what hypermedia is capable of, mostly using a hypermedia data format you're already familiar with: HTML.</dd>
+      </dl>
+      <p>
+      The next four chapters describe different strategies for designing a hypermedia API:
+      </p>
+      <dl class="chapters">
+      <dt>Chapter 5, Domain-Specific Designs</dt>
+      <dd>The obvious strategy is to design a completely new standard that deals with your exact problem. I use the Maze+XML standard as an example.</dd>
+
+      <dt>Chapter 6, The Collection Pattern</dt>
+      <dd>One pattern in particular - the collection pattern - shows up over and over again in API design. In this chapter, I show off two different standards that capture this pattern: Collection+JSON and AtomPub.</dd>
+
+      <dt>Chapter 7, Pure-Hypermedia Designs</dt>
+      <dd>When the collection pattern doesn't fit your requirements, you can convey any representation you want using a general-purpose hypermedia format. This chapter shows how it works using three general hypermedia formats (HTML, HAL, and Siren) as examples. This chapter also introduces HTML microformats and microdata, which lead in to the next chapter.</dd>
+
+      <dt>Chapter 8, Profiles</dt>
+      <dd>A profile fills in the gaps between a data format (which can be used by many different APIs) and a specific API implementation. The profile format I recommend is ALPS, but I also cover XMDP and JSON-LD.
+      <br/><br />
+      In this chapter, my advice begins to outstrip the state of the art at the time this book was written. I had to develop the ALPS format for this book, because nothing else would do the job. If you're already familiar with hypermedia-based designs, you might be able to skip up to Chapter 8, but I don't think you should skip past it.</dd>
+      </dl>
+      <p>
+      Chapters 9 through 13 cover practical topics like choosing the right hypermedia format and getting the most out of the HTTP protocol.
+      </p>
+      <dl class="chapters">
+      <dt>Chapter 9, The Design Procedure</dt>
+      <dd>This chapter brings together everything discussed in the book so far, and gives a step-by-step guide to designing a RESTful API.</dd>
+
+      <dt>Chapter 10, The Hypermedia Zoo</dt>
+      <dd>In an attempt to show what hypermedia is capable of, this chapter discusses about 20 standardized hypermedia data formats, most of them not covered elsewhere in the book.</dd>
+
+      <dt>Chapter 11, HTTP for APIs</dt>
+      <dd>This chapter gives some best practices for the use of HTTP in API implementations. I also discuss some extensions to HTTP, including the forthcoming HTTP 2.0 protocol.</dd>
+
+      <dt>Chapter 12, Resource Description and Linked Data</dt>
+      <dd>Linked Data is the Semantic Web community's approach to REST. JSON-LD is arguably the most important Linked Data standard. It's covered briefly in Chapter 8, and I revisit it here. This chapter also covers the RDF data model, and some RDF-based hypermedia formats that I didn't get to in Chapter 10.</dd>
+
+      <dt>Chapter 13, CoAP: REST for Embedded Systems</dt>
+      <dd>This chapter closes out the core body of the book by covering CoAP, a RESTful protocol that doesn't use HTTP at all.</dd>
+      </dl>
+      <p>
+      The back matter contains some handy references, a discussion of Roy Fielding's disseration, and the Glossary of terms.
+      </p>
+      <dl class="chapters">
+      <dt>Appendix A, The Status Codex</dt>
+      <dd>An extension of Chapter 11, this appendix provides an in-depth look at the 41 standard status codes defined in the HTTP specification, as well as a few useful codes defined as extensions.</dd>
+
+      <dt>Appendix B, The Header Codex</dt>
+      <dd>Similar to Appendix A, this appendix is also an extension of Chapter 11. It provides a detailed outline of the 46 request and response headers defined in the HTTP specification, as well as a few extensions.</dd>
+
+      <dt>Appendix C, An API Designer's Guide to the Fielding Dissertation</dt>
+      <dd>This appendix includes an in-depth discussion of the foundational document of REST, in terms of what it means for API design.</dd>
+
+      <dt>Glossary</dt>
+      <dd>The glossary contains definitions to terms you'll frequently encounter when working with RESTful web APIs. It's a good place to turn for familiarizing yourself with basic concepts or if you need a quick, at-a-glance reminder of a particular concept's definition.</dd>
+      </dl>
+    </div>
+
+  </body>
+</html>

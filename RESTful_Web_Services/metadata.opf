@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">2a9f8910-c4d3-4ebb-b608-ee9db979df20</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">2a9f8910-c4d3-4ebb-b608-ee9db979df20</dc:identifier>
+        <dc:title>RESTful Web Services</dc:title>
+        <dc:creator opf:file-as="Richardson, Leonard &amp; Ruby, Sam" opf:role="aut">Leonard Richardson</dc:creator>
+        <dc:creator opf:file-as="Richardson, Leonard &amp; Ruby, Sam" opf:role="aut">Sam Ruby</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.9.18) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2008-12-17T05:00:00+00:00</dc:date>
+        <dc:description>&lt;p&gt;You’ve built web sites that can be used by humans. But can you also build web sites that are usable by machines? That’s where the future lies, and that’s what this book shows you how to do. Today’s web service technologies have lost sight of the simplicity that made the Web successful. This book explains how to put the “Web” back into web services with REST, the architectural style that drives the Web.&lt;/p&gt;</dc:description>
+        <dc:publisher>O’Reilly Media</dc:publisher>
+        <dc:rights>Copyright © 2008 Leonard Richardson and Sam Ruby</dc:rights>
+        <dc:language>en</dc:language>
+        <dc:subject>COMPUTERS / Systems Architecture / General</dc:subject>
+        <meta content="{}" name="calibre:author_link_map"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Cover" type="cover"/>
+    </guide>
+</package>
